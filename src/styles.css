@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+nav.ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+.nav a{
+    color:inherit;
+    text-decoration: none;
+}
+.siteLogo{
+    padding: 5px;
+    width: 300px;
+    height: 90px;
+}
+.nav li:hover{
+    background-color: red;
+}
+.productos {
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.producto_element {
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px red;
+    border-radius: 10px;
+}
+
+.producto_element-image {
+    height: 250px;
+    width: 250px;
+
+}
+
+.producto_element-text {
+    color: rgb(0, 0, 0);
+}
+
+.producto_element-precio {
+    color: rgb(252, 0, 0);
+}
+
+.btn_comprar {
+    color: red;
+    background-color: rgb(0, 0, 0);
+    border: solid 2px red;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.btn_comprar:hover {
+    color: rgb(0, 0, 0);
+    background-color: red;
+    border: solid 2px rgb(0, 0, 0);
+    padding: 4px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
