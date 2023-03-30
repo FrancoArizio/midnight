@@ -89,3 +89,7 @@ nav.ul{
     border-radius: 10px;
     transition-duration: 1s;
 }
+.cart{
+    width: 75px;
+    height: 75px;
+}
