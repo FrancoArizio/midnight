@@ -1,6 +1,10 @@
-import ItemContainer from "../components/itemContainer"
-import ItemListContainer from "../components/itemListContainer"
+import Navbar from '../components/navBar';
+import uc from "../images/uc.png"
 
-export default function cars(){
-    return 
+export default function Cars(){
+    return (<>
+    <Navbar/>;
+    <img src={uc}></img>;
+    </>
+    )
 }
