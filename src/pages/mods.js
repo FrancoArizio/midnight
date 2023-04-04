@@ -1,10 +1,12 @@
 import Navbar from '../components/navBar';
-import uc from "../images/uc.png"
+import ItemListContainer from '../components/itemListContainer';
+import data from "../data/data.json"
 
 export default function Mods(){
+    const info = data.filter((prod) => prod.category == "mod")
     return (<>
-        <Navbar/>;
-        <img src={uc}></img>;
-        </>
-        )
+    <Navbar/>;
+    <ItemListContainer data={info}/>
+    </>
+    )
 }

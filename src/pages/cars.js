@@ -1,10 +1,12 @@
 import Navbar from '../components/navBar';
-import uc from "../images/uc.png"
+import ItemListContainer from '../components/itemListContainer';
+import data from "../data/data.json"
 
 export default function Cars(){
+    const info = data.filter((prod) => prod.category == "car")
     return (<>
     <Navbar/>;
-    <img src={uc}></img>;
+    <ItemListContainer data={info}/>
     </>
     )
 }

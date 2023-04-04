@@ -1,0 +1,98 @@
+[
+    {
+        "producto": "HKS Muffler",
+        "precio": 25000,
+        "imagen": "./images/mufflerhks.jpg",
+        "category": "mod"
+    },
+    {
+        "producto": "VOLTEX Wing",
+        "precio": 75000,
+        "imagen": "./images/voltex.jpg",
+        "category": "mod"
+    },
+    {
+        "producto": "LONGCHAMPS Wheels",
+        "precio": 100000,
+        "imagen": "./images/longchamps.jpg",
+        "category": "mod"
+    },
+    {
+        "producto": "Generic UNDERGLOW",
+        "precio": 15000,
+        "imagen": "./images/underglow.jpg",
+        "category": "mod"
+    },
+    {
+        "producto": "Mazda RX7 FD",
+        "precio": 48000000,
+        "imagen": "./images/rx7.jpg",
+        "category": "car"
+    },
+    {
+        "producto": "Honda Civic EF",
+        "precio": 15000000,
+        "imagen": "./images/civicef.jpg",
+        "category": "car"
+    },
+    {
+        "producto": "BN Sport bodykit",
+        "precio": 35000,
+        "imagen": "./images/bnsport.jpg",
+        "category": "mod"
+    },
+    {
+        "producto": "Toyota AE86",
+        "precio": 10000000,
+        "imagen": "./images/ae86.jpg",
+        "category": "car"
+    },
+    {
+        "producto": "Transparent Shift Knob",
+        "precio": 5000,
+        "imagen": "./images/knob.jpg",
+        "category": "mod"
+    },
+    {
+        "producto": "Nissan Skyline R32 GTT",
+        "precio": 25000000,
+        "imagen": "./images/r32.jpg",
+        "category": "car"
+    },
+    {
+        "producto": "Hyunday Genesis",
+        "precio": 50000000,
+        "imagen": "./images/genesis.jpg",
+        "category": "car"
+    },
+    {
+        "producto": "Volskwagen Golf MKIV",
+        "precio": 38000000,
+        "imagen": "./images/golf.jpg",
+        "category": "car"
+    },
+    {
+        "producto": "BMW E36 D1GP READY",
+        "precio": 25000000,
+        "imagen": "./images/e36.jpg",
+        "category": "car"
+    },
+    {
+        "producto": "Toyota Celica MK1",
+        "precio": 30000000,
+        "imagen": "./images/celicamk1.jpg",
+        "category": "car"
+    },
+    {
+        "producto": "Tsurikawa",
+        "precio": 1000,
+        "imagen": "./images/tsurikawa.jpg",
+        "category": "mod"
+    },
+    {
+        "producto": "VORTEX Wheel",
+        "precio": 25000,
+        "imagen": "./images/vortex.jpg",
+        "category": "mod"
+    }
+]
